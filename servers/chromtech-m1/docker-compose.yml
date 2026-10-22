@@ -1,0 +1,12 @@
+services:
+  chromtech-m1:
+    build: .
+    restart: always
+    privileged: true
+    network_mode: host
+    group_add:
+      - dialout
+    volumes:
+      - type: bind
+        source: /dev/
+        target: /dev/

@@ -1,0 +1,31 @@
+{
+  "template": "https://gitlab.com/unitelabs/cdk/connector-factory.git",
+  "commit": "c48304a91fd7bc838d6bd04c725dd5a3a74e8512",
+  "checkout": null,
+  "context": {
+    "cookiecutter": {
+      "connector_name": "chromtech_m1",
+      "project_name": "chromtech-m1",
+      "package_name": "chromtech_m1",
+      "__package_import_name": "unitelabs.chromtech_m1",
+      "__protocol_name": "ChromtechM1",
+      "project_description": "A connector for Chromtech M1 style pumps.",
+      "author_full_name": "John Brittain",
+      "author_email": "johndbrittain@outlook.com",
+      "project_repo": "https://gitlab.com/unitelabs/connectors/chromtech-m1",
+      "communication_type": "usb",
+      "env": "uv",
+      "_render_devdocs": false,
+      "_jinja2_env_vars": {
+        "lstrip_blocks": true,
+        "trim_blocks": true
+      },
+      "_extensions": [
+        "internal_ext.IsInternalExtension"
+      ],
+      "_template": "https://gitlab.com/unitelabs/cdk/connector-factory.git",
+      "_commit": "c48304a91fd7bc838d6bd04c725dd5a3a74e8512"
+    }
+  },
+  "directory": null
+}
